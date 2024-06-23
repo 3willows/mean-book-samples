@@ -10,5 +10,6 @@ myEmitter.on('error', (err) => {
 });
 
 // 模拟触发error事件
+// Can Change '错误信息' in the line below without affecting output
 myEmitter.emit('error', new Error('错误信息'));
 // 抛出错误
