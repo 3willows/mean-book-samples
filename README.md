@@ -1,6 +1,10 @@
 # MEAN Samples. 《MongoDB＋Express＋Angular＋Node.js全栈开发实战派》源码
 
-**// Comments in English s are my own study notes as follow along with book in hand.**
+**// Comments in English are my own study notes as follow along with book in hand.**
+
+// Context: borrowed this book on the afternoon of 23 June 2024 from City Hall Library, Hong Kong.  It was just the kind of short exposition I needed.  
+
+// All the example programmes are easy to run and observe.  For this, my first reading, I especially appreicaiate the demonstrations on buffer, events, and fs, which gave me an easy way to give the functions a spin and see the intended outputs.
 
 ## 内容简介
 
