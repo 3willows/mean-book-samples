@@ -4,6 +4,7 @@ class MyEmitter extends EventEmitter { }
 
 const myEmitter = new MyEmitter();
 
+// Comment out the event listener and console will print long error message
 // 为error事件注册监听器
 myEmitter.on('error', (err) => {
     console.error('错误信息');
