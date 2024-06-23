@@ -4,6 +4,7 @@ const safeBuf = Buffer.alloc(10, 'waylau');
 console.log(safeBuf.toString());
 
 // 数据有可能包含旧数据
+// in practice I did not see any odd beahviour.  But I can see form my 42 days how this may happen.
 const unsafeBuf = Buffer.allocUnsafe(10);
 
 console.log(unsafeBuf.toString());
