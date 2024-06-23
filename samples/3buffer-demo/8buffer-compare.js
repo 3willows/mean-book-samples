@@ -10,3 +10,5 @@ console.log(arr.sort(Buffer.compare));
 // 比较的第2种用法
 console.log(buf1.compare(buf2));
 // 输出1
+
+// not entirely sure what this is useful for either

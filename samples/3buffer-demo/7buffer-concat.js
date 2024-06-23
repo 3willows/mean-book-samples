@@ -12,3 +12,5 @@ const bufA = Buffer.concat([buf1, buf2, buf3], totalLength);
 console.log(bufA); // <Buffer 00 00 00 00 00 00 00>
 
 console.log(bufA.length); // 7
+
+// not entirely sure what this is useful for
