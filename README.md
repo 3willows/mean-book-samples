@@ -1,5 +1,6 @@
 # MEAN Samples. 《MongoDB＋Express＋Angular＋Node.js全栈开发实战派》源码
 
+**// Comments in English s are my own study notes as follow along with book in hand.**
 
 ## 内容简介
 
