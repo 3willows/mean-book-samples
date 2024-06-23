@@ -29,6 +29,8 @@ console.log(buf.slice(-6, -2).toString());
 // 输出：buff
 // 等同于：buf.slice(0, 4)
 
+// i.e. the index winds back to the beginning?
+
 console.log(buf.slice(-5, -2).toString());
 // 输出：uff
 // 等同于：buf.slice(1, 4)
@@ -45,3 +47,5 @@ console.log(newBuf.toString()); // buf
 newBuf[0] = 97;  // 97在ASCII中的值是'a'.
 
 console.log(oldBuf.toString()); // auffer
+
+// copy by reference not by value
