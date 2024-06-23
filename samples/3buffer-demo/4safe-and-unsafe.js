@@ -15,4 +15,4 @@ unsafeBuf2.fill(0);
 
 console.log(unsafeBuf2.toString());
 
-// running "node --zero-fill-buffers 5safe-and-unsafe.js" did not make an immediately obvious difference, but should improve safety
+// running "node --zero-fill-buffers 4safe-and-unsafe.js" did not make an immediately obvious difference, but should improve safety

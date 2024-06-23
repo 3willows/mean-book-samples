@@ -9,3 +9,4 @@ console.log(buf.toString('hex'));
 console.log(buf.toString('base64'));
 // 输出：SGVsbG8gV29ybGQh5L2g5aW977yM5LiW55WM77yB
 
+console.log(buf.toString('ascii'));
