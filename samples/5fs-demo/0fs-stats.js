@@ -18,3 +18,12 @@ fs.rename('./temp/hello', './temp/world', (err) => {
 //   }
 //   console.log('finish renaming it back to "hello"!')
 // })
+
+// Adding the code below without more won't work because of async execution order
+
+// fs.stat('./temp/world', (err, stats) => {
+//   if (err) {
+//     throw err
+//   }
+//   console.log(`nature of the file: ${JSON.stringify9(stats)}`)
+// })
